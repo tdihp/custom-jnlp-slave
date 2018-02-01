@@ -10,3 +10,7 @@ The intended use of this snippet is to generate custom JNLP Slave image for
 kubernetes-plugin to be used as freestyle job image, as there's currently no
 other way to specify container for freestyle jobs now even though multiple
 containers can be configured.
+
+To set baseimage:
+
+    docker build . --build-arg BASEIMAGE=yourbaseimage
